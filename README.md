@@ -16,14 +16,6 @@ chmod +x scripts/*.sh
 ./scripts/run.sh normal diablo3_pose
 ```
 
-### Manual CMake
-
-```bash
-cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
-cmake --build build -j
-./build/minirenderer flat head
-```
-
 ## Runtime flags
 
 The renderer is built as an “engine style” binary: all render modes are compiled in.
