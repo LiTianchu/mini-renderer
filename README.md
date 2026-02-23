@@ -10,10 +10,9 @@ A project built upon the famous Tinyrenderer project https://github.com/ssloy/ti
 ```bash
 chmod +x scripts/*.sh
 ./scripts/build.sh -t Release
-./scripts/run.sh --ssao --model head
+./scripts/run.sh --complete --model diablo 
 
 # switch model (defaults to head model)
-./scripts/run.sh ssao boggie
 ./scripts/run.sh normal diablo3_pose
 ```
 
@@ -32,7 +31,7 @@ Pick the mode and model at runtime:
 
 ```bash
 ./scripts/run.sh --flat --model head
-./scripts/run.sh --ssao --model boggie
+./scripts/run.sh --ssao --model diablo
 ./scripts/run.sh --mode normal --model diablo3_pose
 
 # tweak lighting and rotate model (no rebuild needed)
@@ -62,7 +61,7 @@ Basic:
 
 ```bash
 ./scripts/run.sh --flat --model head
-./scripts/run.sh --ssao --model boggie
+./scripts/run.sh --ssao --model diablo
 ./scripts/run.sh --mode normal --model diablo3_pose
 ```
 
@@ -89,7 +88,6 @@ Model selection:
 - `--model <model>` where `<model>` is one of:
 	- `head` (default)
 	- `african_head` (alias for `head`)
-	- `boggie`
 	- `diablo3_pose` (aliases: `diablo`, `diablo3`)
 
 Lighting / transform tuning:

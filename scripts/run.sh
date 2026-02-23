@@ -14,7 +14,7 @@ Usage: $(basename "$0") [options] [mode] [model]
 
 Options:
 	--mode <mode>           wireframe|flat|smooth|texture|uv|normal|depth|shadowmap|ssao|complete
-  --model <model>         head|african_head|boggie|diablo3_pose
+  --model <model>         head|african_head|diablo3_pose
 	--intensity <float>     Main light intensity (example: 2.0)
 	--yaw <degrees>         Rotate model around Y axis (example: 45)
 
@@ -23,7 +23,7 @@ Convenience mode flags (equivalent to --mode <mode>):
 
 Examples:
   ./scripts/run.sh --flat --model head
-  ./scripts/run.sh --mode ssao --model boggie
+  ./scripts/run.sh --mode ssao --model diablo3_pose
   ./scripts/run.sh normal diablo3_pose
 EOF
 }

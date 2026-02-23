@@ -86,13 +86,6 @@ int main(int argc, char **argv)
                 {
                         // defaults already set
                 }
-                else if (model_key == "boggie")
-                {
-                        obj_path = "obj/boggie/head.obj";
-                        diffuse_path = "obj/boggie/head_diffuse.tga";
-                        // Boggie assets provide tangent-space normal map; we can still use it as a normal texture here.
-                        normal_path = "obj/boggie/head_nm_tangent.tga";
-                }
                 else if (model_key == "diablo" || model_key == "diablo3" || model_key == "diablo3_pose")
                 {
                         obj_path = "obj/diablo3_pose/diablo3_pose.obj";
@@ -302,14 +295,14 @@ int main(int argc, char **argv)
                 {
                         std::cout << "Unknown mode: '" << mode << "'" << std::endl;
                         std::cout << "Valid modes: wireframe, flat, smooth, texture, uv, normal, depth, shadowmap, ssao, complete" << std::endl;
-                        std::cout << "Optional model key: head|african_head (default), boggie, diablo3_pose" << std::endl;
+                        std::cout << "Optional model key: head|african_head (default), diablo3_pose" << std::endl;
                 }
     }
     else
     {
                 std::cout << "Usage: ./minirenderer <mode> [model]" << std::endl;
                 std::cout << "  mode: wireframe|flat|smooth|texture|uv|normal|depth|shadowmap|ssao|complete" << std::endl;
-                std::cout << "  model (optional): head|african_head (default), boggie, diablo3_pose" << std::endl;
+                std::cout << "  model (optional): head|african_head (default), diablo3_pose" << std::endl;
     }
     std::cout << "Writing rendered output..." << std::endl;
 
