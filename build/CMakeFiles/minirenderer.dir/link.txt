@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/minirenderer.dir/src/main.cpp.o CMakeFiles/minirenderer.dir/src/engine.cpp.o CMakeFiles/minirenderer.dir/src/he_model.cpp.o CMakeFiles/minirenderer.dir/src/model.cpp.o CMakeFiles/minirenderer.dir/src/tgaimage.cpp.o -o minirenderer 

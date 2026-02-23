@@ -1,3 +1,0 @@
-/home/litianchu/Projects/graphics/MiniRenderer/build/CMakeFiles/minirenderer.dir
-/home/litianchu/Projects/graphics/MiniRenderer/build/CMakeFiles/edit_cache.dir
-/home/litianchu/Projects/graphics/MiniRenderer/build/CMakeFiles/rebuild_cache.dir
